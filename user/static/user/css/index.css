@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    
+    padding-top: 20px;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    border-bottom:2px solid grey ;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    padding-left: 10px;
+    /* background-color: bisque; */
+}
+
+.ButtonConatainer{
+    width: 66%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footercontainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+
+.footeroperatorsection{
+    border-right: 2px solid rebeccapurple;
+    border-left: 2px solid rebeccapurple;
+
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+
+.footertripsection div,.footeroperatorsection div,.footertrawaysection div{
+    margin-bottom:12px ;
+}
