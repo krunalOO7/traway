@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title  %}
+
+        {% endblock %}
+
+    </title>
+    <link rel="stylesheet" href="{% static 'user/css/index.css' %}">
+</head>
+<body>
+    <nav>
+        <header class="header">
+            <div class="logo">
+                logo
+    
+            </div>
+            <div class="ButtonConatainer">
+                <div class="searchbar">
+                    searchbar
+                </div>
+                <div class="whishlist">
+                    whish list
+                </div>
+                <div class="locationpref">
+                    location preference 
+                </div>
+                <div class="operatorlogin">
+                    op login
+                </div>
+            </div>
+        </header>
+
+
+    </nav>
+
+    <main>
+        {% block content %}
+
+
+        {% endblock %}
+
+
+    </main>
+    <footer class="footercontainer">
+        <div class="footertripsection">
+
+            <div>trips from location</div>
+            <div>trips this week</div>
+            <div>trips to south india</div>
+            <div>trips to north east</div>
+            <div>trips to hill station </div>
+
+        </div>
+        <div class="footeroperatorsection">
+            <div title="only for a trip providers">are you trip provider join us!</div>
+            <div>search for trip provider</div>
+            <div>search trips </div>
+            <div>change location preference</div>
+            <div> special offers</div>
+
+        </div>
+        <div class="footertrawaysection">
+            <div>home</div>
+            <!-- <div>search trips</div> -->
+            <!-- <div>travelers in location</div> -->
+            <div>contact</div>
+            <div>Instagram</div>
+            <div>Facebook</div>
+            <div>feedback</div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>

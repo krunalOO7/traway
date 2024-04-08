@@ -15,3 +15,9 @@ def login(request):
 
 def profile(request):
     return render(request,"user/profilepage.html")
+
+def layout(request):
+    return render(request,'layout.html')
+
+def practice(request):
+    return render(request,"practice.html")
